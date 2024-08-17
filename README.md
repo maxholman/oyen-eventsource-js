@@ -52,7 +52,7 @@ const [, received] = await Promise.all([
   source.once(),
 ]);
 
-console.log('received:', received); //  { ch: 'test', secretMessage: '👋' }
+console.log(received); //  { ch: 'test', secretMessage: '👋' }
 ```
 
 ## License
